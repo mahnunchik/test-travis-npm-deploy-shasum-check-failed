@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '4'
+- '5'
+deploy:
+  provider: npm
+  email: mahnunchik@gmail.com
+  api_key:
+    secure: Hh5CvQq+H3BkXQqA3z2PMSlZ9q/NnRfIeKjpWS6EzY5KoUIvH0qoUxX/x7gh+C8/tZI9b1/6uAr8peZyGOXBGgSSeR/qoKBdB/kB1RdxaWG7aTci+YxrobGm7dWwV1557L8Qns9c8233aYbKawqX6GuZIzkx3qVx32PnOF6Y8mWM/ZBCIC+ViT1UEV1AfR+TRkWhLP7CwsdtCtCKCB0ebxqCUZAEh63Gc3MB+OP7pGDlyn/1TjZEPIg0BJEbLT4PBkcs54kCCfwuxDsjmtytcqim2+lYsNL3QRWCPF9AGRFj9Sj0A2owQzgqUDerNB8nz84NKb4Z74L5IpiY3M+kyDtayXoimrP2JaY67bPyxhIJDH0PtPMZySKV9t2kgywEDftsFyYcAIxpC2vHYZJno3mzxA8PJb5DmcIJl0++R/3j6wqURhlGYe5IFVGi85kNwBLqh8N3JxJc/QH935sAUIIC2mnbK0dvZtKoHVFNXyZJ4CLzTPOB9Tca0cmiGbR6bXLWfYBS7QTGXkojxA95462/HK7JTugQeh525264M7ZPCJ2cJUeO9FabDQpxNzFxx7Z0D8Zp7yTDQMN4F2n9kwtZN8+B5mpH51wOhjSFWjEFGStvdbhOEQL7LGBjtUBAJSLpulfNjDUr91xAlAxb+oXq1sifiQ8Jylr8WjeGcMY=
+  on:
+    tags: true
+    repo: mahnunchik/test-travis-npm-deploy-shasum-check-failed
