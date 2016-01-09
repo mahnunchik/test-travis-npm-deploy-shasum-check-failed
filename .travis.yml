@@ -10,4 +10,4 @@ deploy:
   on:
     tags: true
     repo: mahnunchik/test-travis-npm-deploy-shasum-check-failed
-after_deploy: npm install test-travis-npm-deploy-shasum-check-failed
+after_deploy: npm install test-travis-npm-deploy-shasum-check-failed --force
