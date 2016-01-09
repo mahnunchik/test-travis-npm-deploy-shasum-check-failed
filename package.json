@@ -1,0 +1,19 @@
+{
+  "name": "test-travis-npm-deploy-shasum-check-failed",
+  "version": "1.0.0",
+  "description": "Testcase for shasum check filed deploy from travis to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Tests passed!"
+  },
+  "repository": "mahnunchik/test-travis-npm-deploy-shasum-check-failed",
+  "keywords": [
+    "test",
+    "travis",
+    "npm",
+    "deploy",
+    "shasum"
+  ],
+  "author": "Evgeny Vlasenko <mahnunchik@gmail.com>",
+  "license": "MIT"
+}
