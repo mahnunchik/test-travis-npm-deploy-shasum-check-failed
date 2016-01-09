@@ -1,6 +1,6 @@
 {
   "name": "test-travis-npm-deploy-shasum-check-failed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Testcase for shasum check filed deploy from travis to npm",
   "main": "index.js",
   "scripts": {
