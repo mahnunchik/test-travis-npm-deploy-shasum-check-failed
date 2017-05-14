@@ -1,5 +1,7 @@
 # test-travis-npm-deploy-shasum-check-failed
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/test-travis-npm-deploy-shasum-check-failed.svg)](https://greenkeeper.io/)
+
 Testcase for shasum check filed deploy from travis to npm.
 
 [![Build Status](https://travis-ci.org/mahnunchik/test-travis-npm-deploy-shasum-check-failed.svg?branch=master)](https://travis-ci.org/mahnunchik/test-travis-npm-deploy-shasum-check-failed)
